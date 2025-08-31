@@ -6,13 +6,13 @@ Console-based Java application using JDBC that allows managing student informati
 ## Setup Instructions
 
 1. Install MySQL and create a database named `student_information`.
-2. Update the database credentials in `JDBCUtil.java` if necessary.
+2. Update the database credentials in `connection.java` if necessary.
 3. Import the project into your IDE or compile via command line.
 4. Follow the console menu to perform CRUD operations.
 
 ## Assumptions or Special Notes
 - Java 8 or later is required.
-- Database connection uses `root` user by default (change in `JDBCUtil.java` accordingly).
+- Database connection uses `root` user by default.
 - The project uses simple console interaction; no GUI is included.
 
 ## Features
